@@ -5,7 +5,6 @@
 #  3. Operations related to linear algebra. NumPy has in-built functions for linear algebra and random number generation.
 # NOTE: NumPy arrays are homogeneous
 
-from pickletools import float8
 import numpy as np
 
 
