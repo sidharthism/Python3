@@ -43,7 +43,7 @@ print(sys.argv)
 print(sys.version)
 # max int
 print(sys.maxsize)
-# search path for aall python modules
+# search path for all python modules
 print(sys.path)
 # Use to safely exit in case of exception
 sys.exit()
