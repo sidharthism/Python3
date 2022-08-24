@@ -48,7 +48,6 @@ print(a.dtype, b.dtype, c.dtype) # int32 float64 int8
 print(a.itemsize, b.itemsize, c.itemsize) # 4 8 1
 
 # Specifying minimum dimensions - ndmin
-import numpy as np
 k = np.array([1,2,3,4,5,6], ndmin = 2) 
 print(k) # [[1 2 3 4 5 6]]
 
