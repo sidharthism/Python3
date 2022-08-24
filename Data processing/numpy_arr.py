@@ -90,7 +90,7 @@ print(arr)
 arr = np.linspace(0, 9, 10) # [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]
 print(arr)
 
-# 4. using logspace(tart_index, end_index, no_of_elements, [dtype]) To generate no_of_elements elements, evenly spaced w.r.t interval on log scale in between start and end indices
+# 4. using logspace(start_index, end_index, no_of_elements, [dtype]) To generate no_of_elements elements, evenly spaced w.r.t interval on log scale in between start and end indices
 arr = np.logspace(0, 9, 10) # [1.e+00 1.e+01 1.e+02 1.e+03 1.e+04 1.e+05 1.e+06 1.e+07 1.e+08 1.e+09]
 print(arr)
 
